@@ -1,0 +1,130 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    body{
+      background-color: rgb(221, 220, 218);
+    }
+    
+    nav > ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h1{
+      color: rgb(0, 0, 46);
+      font-size: 300%;
+    }
+
+    h2 {
+      color: rgb(0, 0, 46);
+    }
+
+    p {
+       color: black;
+       margin: 25px;
+       font-size:medium;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       text-align: center;
+    }
+
+    h5{
+      color: black;
+      font-size: larger;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+     
+    a {
+       font-size: small;
+    }
+  </style>
+
+  <title>Document</title>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="{% static 'img/nova_logo.png' %}" alt="" width="120" height="91">
+      <a class="navbar-brand" href="inicio">Universidade Speckter</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="cadastro">CADASTRE-SE</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="concorrentes">JÁ CADASTRADOS</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div style="text-align: center;">
+    <h1>Descubra o Seu Futuro na Universidade Speckter!</h1>
+    <h5>Você está pronto para dar o próximo passo em sua jornada educacional? Na Universidade Speckter, estamos comprometidos em transformar sonhos em realidade. Aqui estão algumas razões pelas quais você deve considerar estudar conosco:</h5>
+  </div>
+  <div style="width: 560px; margin: auto; display: flex; justify-content: center; gap: 20px;">
+    <img src="https://mairablanes.com.br/wp-content/uploads/2019/12/Da%CC%81-para-ser-feliz-estudando-para-concursos-Blog-Maira-Blanes-Coach.jpg" width="400" height="300">
+    <img src="https://img.freepik.com/fotos-gratis/estudando-o-conceito-online-mulher-jovem-seria-ocupada-com-um-projeto-freelance-remoto-senta-se-em-um-sofa-confortavel-faz-anotacoes-segura-o-livro-usa-o-laptop-em-casa-com-internet-sem-fio_273609-29039.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1709078400&semt=ais" width="400" height="300">
+  </div>
+  <br />]
+  <div style="text-align: center;">
+    <h2>Excelência Acadêmica:</h2>
+    <h5>Nossos programas são ministrados por professores experientes e dedicados, que estão comprometidos em oferecer uma educação de alta qualidade. Prepare-se para desafios intelectuais e crescimento pessoal.</h5>
+  </div>
+  <div style="width: 560px; margin: auto; display: flex; justify-content: center; gap:20px;">
+    <img src="https://media.gettyimages.com/id/1091216916/pt/foto/happy-male-professor-giving-his-students-test-results-in-amphitheater.jpg?s=612x612&w=0&k=20&c=XUeR9BUapUnSHlxFKJlYEGJA-nUEW_Zb3VtCqhK3VB8=" width="400" height="300">
+    <img src="https://media.gettyimages.com/id/1324196249/pt/foto/tutor-giving-test-papers-to-students-in-classroom.jpg?s=612x612&w=0&k=20&c=ObDbPS-l6z6mXw__RGaoFTlteWR3TZu7-Ru4t_lP0-k=" width="400" height="300">
+    <img src="https://media.gettyimages.com/id/1093522584/pt/foto/rear-view-of-mature-teacher-giving-a-lecture-in-a-classroom.jpg?s=612x612&w=0&k=20&c=Sv2sCNw5FFRJNBpzR_hRQiYo-_d1pfsGb2I0HCibNrY=" width="400" height="300">
+  </div>
+  <br />
+  <div style="text-align: center;">
+    <h2>Rede de Contatos:</h2>
+    <h5>Na Universidade Speckter, você fará parte de uma comunidade diversificada de estudantes, ex-alunos e profissionais. Essa rede de contatos será inestimável para sua carreira futura.</h5>
+  </div>
+  <div style="width: 560px; margin: auto; display: flex; justify-content: center; gap: 20px;">
+    <img src="https://cdn2.hubspot.net/hubfs/6006019/Imported_Blog_Media/vida-de-universitario-tudo-o-que-voce-precisa-saber-sobre-a-faculdade.jpeg" width="450" height="300">
+    <img src="https://thumbs.dreamstime.com/b/vida-universit%C3%A1ria-colegas-de-classe-andando-l%C3%A1-fora-e-conversando-para-falando-sobre-exames-passados-158876676.jpg" width="450" height="300">
+  </div>
+  <br />
+  <div style="text-align: center;">
+    <h2>Instalações de Última Geração:</h2>
+    <h5>Nossas instalações incluem laboratórios modernos, bibliotecas bem equipadas e espaços de estudo confortáveis. Você terá acesso a recursos de ponta para aprimorar sua aprendizagem.</h5>
+  </div>
+  <div style="width: 560px; margin: auto; display: flex; justify-content: center; gap: 20px;">
+    <img src="https://www.imagens.usp.br/wp-content/uploads/labquimica004.jpg" width="350" height="200">
+    <img src="https://v1.go.senac.br/portal/uploads/1362-17-08-2012_17-35-25310-1-.jpg" width="300" height="200">
+    <img src="https://www2.ufjf.br/noticias/wp-content/uploads/sites/2/2020/03/biblioteca-e1584646222204.jpg" width="300" height="200">
+    <img src="https://i0.wp.com/jornal.usp.br/wp-content/uploads/20170904_00_ECA-Artes-Pla%CC%81sticas.jpg?resize=800%2C420" width="350" height="200"> 
+  </div>
+  <br />
+  <div style="text-align: center;">
+    <h2>Programas Flexíveis e Vida no Campus Vibrante</h2>
+    <h5>Oferecemos uma variedade de cursos e horários flexíveis para atender às suas necessidades. Seja você um estudante em tempo integral ou alguém que trabalha em período integral, temos opções para você. Além dos estudos, a vida no campus é cheia de atividades sociais, clubes, eventos esportivos e oportunidades de voluntariado. Você fará amizades duradouras e criará memórias incríveis.</h5>
+  </div>
+  <div style="width: 560px; margin: auto; display: flex; justify-content: center; gap: 20px;">
+    <img src="https://prd-gruposeb-escolasatualizadas.s3.amazonaws.com/prd-pueridomus/media/filer_public_thumbnails/filer_public/c5/ac/c5acd572-54fc-4f1d-9869-0dd01924b732/pueri_-_noticia_alunos_do_pueri_domus_fazem_curso_intensivo_na_universidade_yale_-_capa.jpeg__1500x1000_q85_crop_subsampling-2.jpg" width="450" height="300">
+    <img src="https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews-corinne-bdd-admits-cc.jpg?itok=yAdVxWhb&c=a75e254fe1da31f2732f6b0d7bce1413" width="450" height="300">
+  </div>
+  <footer>
+    <p>Universidade Speckter &copy; 2024 | Todos os direitos reservados </p>
+  </footer>
+</body>
+</html>
