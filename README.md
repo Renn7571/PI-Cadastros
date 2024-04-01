@@ -6,13 +6,13 @@
 
 **Este projeto foi desenvolvido como atividade final do curso de capacitação em Python da Cyber Edux, realizado de setembro de 2023 até março de 2024. Para mais informações, consulte o [enunciado](ENUNCIADO.md).**
 
-# Nome do Projeto
+PI-Cadastros
 
 <!-- Substitua a seguinte imagem por uma logo do seu projeto -->
-<img src="img/logo.png" width="150px">
+<img src="C:\Users\xtrem\Downloads\foto logo.jpg" width="150px">
 
 <!-- Substitua o seguinte parágrafo por um resumo do seu projeto: -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+PI-Cadastros é um sistema em html e estilizado em BootsTrap que possui 3 abas, a principa  que possui imagens e textos com o objetivo de atrair o interessado para se cadastrar naquela instituição, a segunda aba, possui um sistema de cadastros simples com objetivo de facilitar os cadastros das pessoas além de uma aba de mensagens para a pessoa que se cadadastrar nos enviar para sabermos mais sobre ela, e a última aba possui uma tabela mostrandos todos os cadastrados naquela instituição ou turma.
 
 ## Documentação
 
@@ -24,4 +24,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <!-- Coloque seu nome, uma foto sua e uma pequena bio sobre você na seguinte tabela: -->
 |  |  |
 |:-------------:|:------------------------------------------------------------:|
-|  <img src="img/profilepic.png" width="150px"></br> **Nome do Autor** | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. |
+|  <img src="C:\Users\xtrem\Downloads\foto perfil.jpg" width="150px"></br> **Rennan Vinicius de Deus Silvestre** | Olá meu nome é Rennan e eu sou muito fã de videogames e por isso, quero me tornar um desenvolvedor de games. Faço faculdade de Análise e Desenvolvimento de Sistemas na Unic e queria aprender mais sobre programação.
