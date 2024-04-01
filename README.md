@@ -10,7 +10,7 @@
 PI-Cadastros
 
 <!-- Substitua a seguinte imagem por uma logo do seu projeto -->
-<img src="blob:https://web.whatsapp.com/4b9b07c2-c123-4b60-b0ca-65df13dcb971" width="150px">
+<img src="blob:https://web.whatsapp.com/4b9b07c2-c123-4b60-b0ca-65df13dcb971" heigth="90" width="150px">
 
 <!-- Substitua o seguinte parágrafo por um resumo do seu projeto: -->
 PI-Cadastros é um sistema em html e estilizado em BootsTrap que possui 3 abas, a principa  que possui imagens e textos com o objetivo de atrair o interessado para se cadastrar naquela instituição, a segunda aba, possui um sistema de cadastros simples com objetivo de facilitar os cadastros das pessoas além de uma aba de mensagens para a pessoa que se cadadastrar nos enviar para sabermos mais sobre ela, e a última aba possui uma tabela mostrandos todos os cadastrados naquela instituição ou turma.
