@@ -10,7 +10,7 @@
 PI-Cadastros
 
 <!-- Substitua a seguinte imagem por uma logo do seu projeto -->
-<img src="blob:https://web.whatsapp.com/4b9b07c2-c123-4b60-b0ca-65df13dcb971" heigth="90" width="150px">
+<img src="C:\Users\xtrem\Downloads\foto logo.jpg" width="150px">
 
 <!-- Substitua o seguinte parágrafo por um resumo do seu projeto: -->
 PI-Cadastros é um sistema em html e estilizado em BootsTrap que possui 3 abas, a principa  que possui imagens e textos com o objetivo de atrair o interessado para se cadastrar naquela instituição, a segunda aba, possui um sistema de cadastros simples com objetivo de facilitar os cadastros das pessoas além de uma aba de mensagens para a pessoa que se cadadastrar nos enviar para sabermos mais sobre ela, e a última aba possui uma tabela mostrandos todos os cadastrados naquela instituição ou turma.
@@ -25,4 +25,4 @@ PI-Cadastros é um sistema em html e estilizado em BootsTrap que possui 3 abas, 
 <!-- Coloque seu nome, uma foto sua e uma pequena bio sobre você na seguinte tabela: -->
 |  |  |
 |:-------------:|:------------------------------------------------------------:|
-|  <img src="blob:https://web.whatsapp.com/f2ee524a-9144-44d1-9f7f-1b4cc87de5ae" width="150px"></br> **Rennan Vinicius de Deus Silvestre** | Olá meu nome é Rennan e eu sou muito fã de videogames e por isso, quero me tornar um desenvolvedor de games. Faço faculdade de Análise e Desenvolvimento de Sistemas na Unic e queria aprender mais sobre programação.
+|  <img src="C:\Users\xtrem\Downloads\foto perfil.jpg" width="150px"></br> **Rennan Vinicius de Deus Silvestre** | Olá meu nome é Rennan e eu sou muito fã de videogames e por isso, quero me tornar um desenvolvedor de games. Faço faculdade de Análise e Desenvolvimento de Sistemas na Unic e queria aprender mais sobre programação.
